@@ -28,9 +28,11 @@ Especially during my Data Science course I had the opportunity to work and exlor
 View more about this project 
 <a href="https://colab.research.google.com/drive/1FQ1r23vMKJq5bhvWjfOPDZBqghMhEIpd?usp=sharing" target="_blank">here</a>
 
-3. One of my bigger projects involved transforming Google location data from Prof. Schueller's phone into a structured pandas DataFrame indexed by datetime, with latitude and longitude columns.
+## Where's Schueller?
 
-On eof my hypothesises for that project was that Prof. Schueller’s weekend travel patterns have likely changed over time, especially when comparing the movement behaviours in 2015 (pre-pandemic), 2020, and 2023 (post-pandemic) show more frequent weekend travel compared to 2021, when pandemic restrictions might have limited his mobility.
+One of my bigger projects involved transforming Google location data from Prof. Schueller's phone into a structured pandas DataFrame indexed by datetime, with latitude and longitude columns.
+
+One of my hypothesises for that project was that Prof. Schueller’s weekend travel patterns have likely changed over time, especially when comparing the movement behaviours in 2015 (pre-pandemic), 2020, and 2023 (post-pandemic) show more frequent weekend travel compared to 2021, when pandemic restrictions might have limited his mobility.
 
 {% include_relative figures/timelapse_2020.html %}
 {% include_relative figures/timelapse_2020.html %}
@@ -68,7 +70,6 @@ Libraries I used include: Pandas, NumPy, Matplotlib, Plotly, as well as used Map
 
 ## Fact-Based Insights
 One of the key insights I’ve gained from my projects is the critical importance of inclusive and representative data, a concept emphasized in Factfulness by Hans Rosling. I’ve observed firsthand how selection bias can lead to misleading conclusions when the dataset fails to reflect the diversity of the population it represents. This has underscored the need for data scientists to think critically, identify gaps in their datasets, and actively seek diverse data sources to ensure fairness and equity in analysis and outcomes. Inspired by Rosling's call to interpret data accurately and avoid one-size-fits-all narratives, I strive to approach each project with a commitment to uncovering meaningful insights that serve a broader, more inclusive audience.
-
 
 
 
