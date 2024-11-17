@@ -13,9 +13,47 @@ One of my major projects involved transforming Google location data from Prof. S
 
 One hypothesis was that Prof. Schueller’s weekend travel patterns changed over time, particularly when comparing 2015 (pre-pandemic), 2020, and 2023 (post-pandemic). The analysis revealed more frequent travel in 2015 and 2023 compared to 2020, likely reflecting pandemic restrictions.
 
-{% include_relative figures/timelapse_2019.html %}
-{% include_relative figures/timelapse_2020.html %}
-{% include_relative figures/timelapse_2022.html %}
+<div style="width: 100%; max-width: 800px; margin: auto;">
+  <div id="carousel" style="position: relative; overflow: hidden; width: 100%; height: 500px;">
+    <!-- Frame 1: 2019 -->
+    <iframe src="figures/timelapse_2019.html" style="width: 100%; height: 100%; display: block;" id="frame-2019"></iframe>
+    
+    <!-- Frame 2: 2020 -->
+    <iframe src="figures/timelapse_2020.html" style="width: 100%; height: 100%; display: none;" id="frame-2020"></iframe>
+    
+    <!-- Frame 3: 2022 -->
+    <iframe src="figures/timelapse_2022.html" style="width: 100%; height: 100%; display: none;" id="frame-2022"></iframe>
+  </div>
+
+  <!-- Navigation Arrows -->
+  <button onclick="prevFrame()" style="position: absolute; top: 50%; left: 0; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; cursor: pointer;">&#10094;</button>
+  <button onclick="nextFrame()" style="position: absolute; top: 50%; right: 0; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; cursor: pointer;">&#10095;</button>
+</div>
+
+<script>
+  const frames = ["frame-2019", "frame-2020", "frame-2022"];
+  let currentFrame = 0;
+
+  function showFrame(index) {
+    frames.forEach((id, i) => {
+      document.getElementById(id).style.display = i === index ? "block" : "none";
+    });
+  }
+
+  function nextFrame() {
+    currentFrame = (currentFrame + 1) % frames.length;
+    showFrame(currentFrame);
+  }
+
+  function prevFrame() {
+    currentFrame = (currentFrame - 1 + frames.length) % frames.length;
+    showFrame(currentFrame);
+  }
+
+  // Show the first frame on page load
+  showFrame(currentFrame);
+</script>
+
 
 The timelapse heatmaps support the hypothesis that Prof. Schueller’s travel patterns were more localized during 2020, reflecting the impact of the pandemic.
 
@@ -44,7 +82,7 @@ Drawing from the Python Data Science Handbook, I follow structured workflows for
 - Organizing code and comments for readability.
 - Using modular functions to promote reusability and scalability.
 - Incorporating rigorous testing to validate outputs.
-- 
+  
 Libraries I’ve used include Pandas, NumPy, Matplotlib, Plotly, and Mapbox for map visualizations.
 
 ## Fact-Based Insights
