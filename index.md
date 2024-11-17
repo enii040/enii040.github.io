@@ -98,7 +98,8 @@ One hypothesis was that Prof. Schueller’s weekend travel patterns changed over
 The timelapse heatmaps support the hypothesis that Prof. Schueller’s travel patterns were more localized during 2020, reflecting the impact of the pandemic.
 
 Find the full project 
-<a href="https://colab.research.google.com/drive/16VBqXlgDpoVissV-YfJqjQtlUCJL9_00?usp=sharing" target="_blank">here</a>
+<a href="https://colab.research.google.com/drive/16VBqXlgDpoVissV-YfJqjQtlUCJL9_00?usp=sharing" target="_blank">here</a>.
+(The above and beyond element is making the visualisations user-friendly by adding arrow buttons to the side to jump from one timelapse to the other.)
 
 
 ## Skills and Technologies
