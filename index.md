@@ -3,6 +3,10 @@
   Eneida Likaj
 </div>
 
+<div align="center">
+  (509) 200-5084 * likaje@whitman.edu * https://www.linkedin.com/in/eneida-likaj-a7b257191/
+</div>
+
 ## About me
 Hi, I’m Eneida Likaj, a sophomore at Whitman College studying Economics with a minor in Finance. 
 Throughout my academic journey, I’ve had the opportunity to be involved in various leadership roles, such as organizing Whitman’s first-ever Codecraft Hackathon, taking the lead for clubs such as GDG on Campus, and being part of the Student Government, this year as a member of the Finance Committee. Additionally, I’ve gained practical experience working as a teaching assistant last semester for Prof. Manumuru for the Statistics in Economics course.
