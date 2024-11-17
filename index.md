@@ -19,11 +19,19 @@ Especially during my Data Science course I had the opportunity to work and exlor
 View more about this project 
 <a href="https://colab.research.google.com/drive/1FQ1r23vMKJq5bhvWjfOPDZBqghMhEIpd?usp=sharing" target="_blank">here</a>
 
-3. One of my bigger projects involved transforming Google location data from Prof. Schueller's phone into a structured pandas DataFrame indexed by datetime, with latitude and longitude columns. Using Plotly, I visualized location data for July 4, 2015, on a map, with variations like satellite view, a time-lapse of movements, and a line plot showing the movement path.
+3. One of my bigger projects involved transforming Google location data from Prof. Schueller's phone into a structured pandas DataFrame indexed by datetime, with latitude and longitude columns.
+
+On eof my hypothesises for that project was that Prof. Schueller’s weekend travel patterns have likely changed over time, especially when comparing the movement behaviours in 2015 (pre-pandemic), 2020, and 2023 (post-pandemic) show more frequent weekend travel compared to 2021, when pandemic restrictions might have limited his mobility.
 
 
+{% include_relative figures/timelapse_2019.html %}
+{% include_relative figures/timelapse_2020.html %}
+{% include_relative figures/timelapse_2023.html %}
 
-7. Additionally, the data was compared to July 5, 2015, to observe patterns and differences, incorporating hover features to display timestamps.
+
+The timelapse heatmaps support the hypothesis that Prof. Schueller had more diverse and extended travel patterns in 2019 and 2022 compared to 2020. During the pandemic year, his movements were noticeably more localized, likely reflecting travel restrictions or limited mobility. In contrast, 2019 and 2022 include international and further domestic travels.
+
+
 
 
 
