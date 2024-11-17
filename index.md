@@ -13,45 +13,85 @@ One of my major projects involved transforming Google location data from Prof. S
 
 One hypothesis was that Prof. Schueller’s weekend travel patterns changed over time, particularly when comparing 2015 (pre-pandemic), 2020, and 2023 (post-pandemic). The analysis revealed more frequent travel in 2015 and 2023 compared to 2020, likely reflecting pandemic restrictions.
 
-<div style="width: 100%; max-width: 800px; margin: auto;">
-  <div id="carousel" style="position: relative; overflow: hidden; width: 100%; height: 500px;">
-    <!-- Frame 1: 2019 -->
-    <iframe src="figures/timelapse_2019.html" style="width: 100%; height: 100%; display: block;" id="frame-2019"></iframe>
-    
-    <!-- Frame 2: 2020 -->
-    <iframe src="figures/timelapse_2020.html" style="width: 100%; height: 100%; display: none;" id="frame-2020"></iframe>
-    
-    <!-- Frame 3: 2022 -->
-    <iframe src="figures/timelapse_2022.html" style="width: 100%; height: 100%; display: none;" id="frame-2022"></iframe>
+<div id="carousel" class="carousel" style="position: relative; width: 100%; max-width: 800px; margin: auto;">
+  <!-- Slide 1 -->
+  <div class="slide active">
+    <iframe src="figures/timelapse_2019.html" width="100%" height="600" frameborder="0"></iframe>
   </div>
 
-  <!-- Navigation Arrows -->
-  <button onclick="prevFrame()" style="position: absolute; top: 50%; left: 0; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; cursor: pointer;">&#10094;</button>
-  <button onclick="nextFrame()" style="position: absolute; top: 50%; right: 0; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; cursor: pointer;">&#10095;</button>
+  <!-- Slide 2 -->
+  <div class="slide">
+    <iframe src="figures/timelapse_2020.html" width="100%" height="600" frameborder="0"></iframe>
+  </div>
+
+  <!-- Slide 3 -->
+  <div class="slide">
+    <iframe src="figures/timelapse_2022.html" width="100%" height="600" frameborder="0"></iframe>
+  </div>
+
+  <!-- Navigation Buttons -->
+  <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+  <button class="next" onclick="changeSlide(1)">&#10095;</button>
 </div>
 
+<style>
+  /* Carousel Styles */
+  .carousel {
+    overflow: hidden;
+    position: relative; /* Ensure positioning for child elements */
+  }
+
+  .slide {
+    display: none;
+    text-align: center;
+  }
+
+  .slide.active {
+    display: block;
+  }
+
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust for centering */
+    width: auto;
+    padding: 10px;
+    font-size: 24px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    z-index: 10; /* Ensure buttons are above other elements */
+    user-select: none; /* Prevent text selection on click */
+  }
+
+  .prev {
+    left: 10px; /* Position on the left */
+  }
+
+  .next {
+    right: 10px; /* Position on the right */
+  }
+
+  iframe {
+    display: block;
+    margin: auto;
+    border: none;
+  }
+</style>
+
 <script>
-  const frames = ["frame-2019", "frame-2020", "frame-2022"];
-  let currentFrame = 0;
+  let currentSlide = 0;
 
-  function showFrame(index) {
-    frames.forEach((id, i) => {
-      document.getElementById(id).style.display = i === index ? "block" : "none";
-    });
+  function changeSlide(direction) {
+    const slides = document.querySelectorAll('.slide');
+    slides[currentSlide].classList.remove('active');
+    currentSlide = (currentSlide + direction + slides.length) % slides.length;
+    slides[currentSlide].classList.add('active');
   }
 
-  function nextFrame() {
-    currentFrame = (currentFrame + 1) % frames.length;
-    showFrame(currentFrame);
-  }
-
-  function prevFrame() {
-    currentFrame = (currentFrame - 1 + frames.length) % frames.length;
-    showFrame(currentFrame);
-  }
-
-  // Show the first frame on page load
-  showFrame(currentFrame);
+  // Initialize the first slide
+  document.querySelector('.slide').classList.add('active');
 </script>
 
 
