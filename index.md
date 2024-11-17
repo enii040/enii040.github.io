@@ -10,35 +10,40 @@
 
 
 ## About me
-Hi, I’m Eneida Likaj, a sophomore at Whitman College studying Economics with a minor in Finance. 
-Throughout my academic journey, I’ve had the opportunity to be involved in various leadership roles, such as organizing Whitman’s first-ever Codecraft Hackathon, taking the lead for clubs such as GDG on Campus, and being part of the Student Government, this year as a member of the Finance Committee. Additionally, I’ve gained practical experience working as a teaching assistant last semester for Prof. Manumuru for the Statistics in Economics course.
-Beyond academics, I’m passionate about leveraging technology to solve real-world problems, shown through my involvement in mentoring students in coding and my work in this summer's community-based STEM initiative.
-I’m particularly interested in pursuing financial and business consulting in the future, where I can combine my knowledge of finance, economics, and technology to help organizations optimize their strategies. 
+Hi, I’m Eneida Likaj, a sophomore at Whitman College majoring in Economics with a minor in Finance.
+Throughout my academic journey, I’ve taken on various leadership roles, such as organizing Whitman’s first-ever Codecraft Hackathon, leading clubs like GDG on Campus, and serving in student government, currently as a member of the Finance Committee. Additionally, I’ve gained practical experience as a teaching assistant for Prof. Manumuru’s Statistics in Economics course last semester.
+Beyond academics, I’m passionate about leveraging technology to solve real-world problems, exemplified by mentoring students in coding and contributing to a community-based STEM initiative this summer. I aspire to pursue a career in financial and business consulting, where I can combine my knowledge of finance, economics, and technology to help organizations optimize their strategies.
+
 
 ## Portfolio Overview
-While I have previously worked with HTML, C++, Java and Python, academically I have supported these skills by taking the course of Computational Porblem Solving (167) in pyhton, Data Structures (270) in Java, and Data Science (215) in Pyhton.
-Especially during my Data Science course I had the opportunity to work and exlore closely Python libraries such as pandas, matplot, numpy etc. 
+I’ve worked with several programming languages, including HTML, C++, Java, and Python, and have supported my skills academically through courses such as Computational Problem Solving (167) in Python, Data Structures (270) in Java, and Data Science (215) in Python.
+During my Data Science course, I explored libraries like Pandas, Matplotlib, NumPy, and Plotly, applying them to various projects:
 
-1. In one of my first projects I have worked on this semester included colleting and cleaning experimental data gathered from my phone's light sensor through Physics Toolbox Sensor Suite to measure the light intensity for 2 days, plot them graphicaly and determine a possible day-length difference between the two days, as the time where the experiement took place was right after the summer solstice and before the fall equinox.
-
+1. Daylight Comparison Project
+I collected and cleaned experimental data using my phone's light sensor through the Physics Toolbox Sensor Suite. The project involved measuring light intensity over two days, plotting the data graphically, and determining day-length differences as part of a study conducted around the summer solstice and fall equinox.
 {% include_relative figures/daylight_comparison.html %}
 
-2. In another project, datasets on student grades and demographics were merged to explore course performance, major impact, and GPA trends. Key findings include ECON majors taking diverse 1xx-level courses, non-ECON and CHEM majors outperforming ECON majors in BIOL courses, and Double and Triple Majors consistently achieving higher GPAs than Single Majors. GPA trends from 2003–2018 showed improvement for Single Majors and consistently strong performance for Double and Triple Majors.
+2. Exploring Student Academic Performance
+In another project, I merged datasets on student grades and demographics to explore course performance, major impacts, and GPA trends. Findings included insights such as:
+
+ECON majors taking diverse 1xx-level courses.
+Non-ECON and CHEM majors outperforming ECON majors in BIOL courses.
+Double and Triple Majors consistently achieving higher GPAs than Single Majors.
 View more about this project 
 <a href="https://colab.research.google.com/drive/1FQ1r23vMKJq5bhvWjfOPDZBqghMhEIpd?usp=sharing" target="_blank">here</a>
 
 ## Where's Schueller?
+One of my major projects involved transforming Google location data from Prof. Schueller's phone into a structured pandas DataFrame indexed by datetime, with latitude and longitude columns.
 
-One of my bigger projects involved transforming Google location data from Prof. Schueller's phone into a structured pandas DataFrame indexed by datetime, with latitude and longitude columns.
+One hypothesis was that Prof. Schueller’s weekend travel patterns changed over time, particularly when comparing 2015 (pre-pandemic), 2020, and 2023 (post-pandemic). The analysis revealed more frequent travel in 2015 and 2023 compared to 2020, likely reflecting pandemic restrictions.
 
-One of my hypothesises for that project was that Prof. Schueller’s weekend travel patterns have likely changed over time, especially when comparing the movement behaviours in 2015 (pre-pandemic), 2020, and 2023 (post-pandemic) show more frequent weekend travel compared to 2021, when pandemic restrictions might have limited his mobility.
-
-{% include_relative figures/timelapse_2020.html %}
+{% include_relative figures/timelapse_2015.html %}
 {% include_relative figures/timelapse_2020.html %}
 {% include_relative figures/timelapse_2023.html %}
 
-The timelapse heatmaps support the hypothesis that Prof. Schueller had more diverse and extended travel patterns in 2019 and 2022 compared to 2020. During the pandemic year, his movements were noticeably more localized, likely reflecting travel restrictions or limited mobility. In contrast, 2019 and 2022 include international and further domestic travels.
-Find the full prject 
+The timelapse heatmaps support the hypothesis that Prof. Schueller’s travel patterns were more localized during 2020, reflecting the impact of the pandemic.
+
+Find the full project 
 <a href="https://colab.research.google.com/drive/16VBqXlgDpoVissV-YfJqjQtlUCJL9_00?usp=sharing" target="_blank">here</a>
 
 
@@ -51,24 +56,23 @@ C++
 #### Porgrams and Technologies:
 Google Collab
 Blender
-R - Studio
+R-Studio
 Canva
 
 ## Approach to Projects
-Interactive Development:
+Interactive Development
 I utilize Google Colab for iterative and interactive data analysis, ensuring clear documentation and visualization throughout the process.
 
-Best Practices:
-Implementing the knowlwdge learned from Python Data Science Handbook, I follow structured workflows for data wrangling, analysis, and visualization. This includes:
-- Consistently organizing code and comments for readability.
+Best Practices
+Drawing from the Python Data Science Handbook, I follow structured workflows for data wrangling, analysis, and visualization. This includes:
+- Organizing code and comments for readability.
 - Using modular functions to promote reusability and scalability.
-- Incorporating rigorous testing to validate outputs at every stage.
-
-Libraries I used include: Pandas, NumPy, Matplotlib, Plotly, as well as used Mapbox for map visualisations.
-
+- Incorporating rigorous testing to validate outputs.
+- 
+Libraries I’ve used include Pandas, NumPy, Matplotlib, Plotly, and Mapbox for map visualizations.
 
 ## Fact-Based Insights
-One of the key insights I’ve gained from my projects is the critical importance of inclusive and representative data, a concept emphasized in Factfulness by Hans Rosling. I’ve observed firsthand how selection bias can lead to misleading conclusions when the dataset fails to reflect the diversity of the population it represents. This has underscored the need for data scientists to think critically, identify gaps in their datasets, and actively seek diverse data sources to ensure fairness and equity in analysis and outcomes. Inspired by Rosling's call to interpret data accurately and avoid one-size-fits-all narratives, I strive to approach each project with a commitment to uncovering meaningful insights that serve a broader, more inclusive audience.
+One of the key insights I’ve gained from my projects is the importance of inclusive and representative data, a concept emphasized in Factfulness by Hans Rosling. Selection bias can lead to misleading conclusions when datasets fail to reflect population diversity. This experience has reinforced my commitment to thinking critically, identifying gaps in data, and seeking diverse sources to ensure fairness and equity in analysis and outcomes. Inspired by Rosling's call to avoid one-size-fits-all narratives, I strive to uncover meaningful insights that serve broader, more inclusive audiences.
 
 
 
