@@ -28,7 +28,8 @@ On eof my hypothesises for that project was that Prof. Schueller’s weekend tra
 {% include_relative figures/timelapse_2023.html %}
 
 The timelapse heatmaps support the hypothesis that Prof. Schueller had more diverse and extended travel patterns in 2019 and 2022 compared to 2020. During the pandemic year, his movements were noticeably more localized, likely reflecting travel restrictions or limited mobility. In contrast, 2019 and 2022 include international and further domestic travels.
-
+Find the full prject 
+<a href="https://colab.research.google.com/drive/16VBqXlgDpoVissV-YfJqjQtlUCJL9_00?usp=sharing" target="_blank">here</a>
 
 
 
