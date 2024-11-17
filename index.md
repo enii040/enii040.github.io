@@ -4,7 +4,7 @@
 </div>
 
 <div align="center">
-  (509) 200-5084 * likaje@whitman.edu * https://www.linkedin.com/in/eneida-likaj-a7b257191/
+  (509) 200-5084 * likaje@whitman.edu * https://www.linkedin.com/in/eneida-likaj-a7b257191/ \
   <a href="https://drive.google.com/file/d/1UC0yQGDHgcBRNg2DVpymw41IlIg1vByu/view?usp=sharing" target="_blank">Resume</a>
 </div>
 
