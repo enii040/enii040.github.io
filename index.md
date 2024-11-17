@@ -75,8 +75,20 @@ Libraries I’ve used include Pandas, NumPy, Matplotlib, Plotly, and Mapbox for 
 One of the key insights I’ve gained from my projects is the importance of inclusive and representative data, a concept emphasized in Factfulness by Hans Rosling. Selection bias can lead to misleading conclusions when datasets fail to reflect population diversity. This experience has reinforced my commitment to thinking critically, identifying gaps in data, and seeking diverse sources to ensure fairness and equity in analysis and outcomes. Inspired by Rosling's call to avoid one-size-fits-all narratives, I strive to uncover meaningful insights that serve broader, more inclusive audiences.
 
 
-
- 
+## Data Sources and Project Ideas
+Response: Val and I were looking at the Consumer Price Index data (https://www.bls.gov/cpi/).
+One idea was to work with the time-series data of prices over different presidential
+administrations in the US. [2009-2017 (Obama); 2017-2021 (Trump); 2021-2024(Biden)]
+We could also see if the consumer price index of good baskets in the US has changed not in
+line with other countries' price indexes.
+Data sources:
+- https://data.ecb.europa.eu/data/data-categories/prices-macroeconomic-and-sectoral-
+statistics/measuring-inflation-harmonised-index-consumer-prices-hicp/harmonised-index-
+- consumer-prices-hicp/goods
+https://data.imf.org/?sk=4ffb52b2-3653-409a-b471-d47b46d904b5&sid=1485878802128)
+- https://tradingeconomics.com/united-states/interest-rate
+- https://fred.stlouisfed.org/series/FEDFUNDS
+- https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG
 
 
 
