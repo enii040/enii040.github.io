@@ -7,6 +7,9 @@
   (509) 200-5084 * likaje@whitman.edu * https://www.linkedin.com/in/eneida-likaj-a7b257191/
 </div>
 
+<a href="https://drive.google.com/file/d/1UC0yQGDHgcBRNg2DVpymw41IlIg1vByu/view?usp=sharing" target="_blank">Resume</a>
+
+
 ## About me
 Hi, I’m Eneida Likaj, a sophomore at Whitman College studying Economics with a minor in Finance. 
 Throughout my academic journey, I’ve had the opportunity to be involved in various leadership roles, such as organizing Whitman’s first-ever Codecraft Hackathon, taking the lead for clubs such as GDG on Campus, and being part of the Student Government, this year as a member of the Finance Committee. Additionally, I’ve gained practical experience working as a teaching assistant last semester for Prof. Manumuru for the Statistics in Economics course.
@@ -62,6 +65,10 @@ Implementing the knowlwdge learned from Python Data Science Handbook, I follow s
 
 Libraries I used include: Pandas, NumPy, Matplotlib, Plotly, as well as used Mapbox for map visualisations.
 
+
+
+8. Fact-Based Insights
+Consider adding a brief reflection on insights gained from your projects. Drawing inspiration from Factfulness by Hans Rosling, highlight your ability to think critically and interpret data accurately.
 
 
 
