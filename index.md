@@ -24,8 +24,7 @@ View more about this project
 On eof my hypothesises for that project was that Prof. Schueller’s weekend travel patterns have likely changed over time, especially when comparing the movement behaviours in 2015 (pre-pandemic), 2020, and 2023 (post-pandemic) show more frequent weekend travel compared to 2021, when pandemic restrictions might have limited his mobility.
 
 
-write_html(fig, file="timelapse_2019.html", full_html=True, include_plotlyjs='cdn')
-
+{% include_relative figures/timelapse_2020.html %}
 {% include_relative figures/timelapse_2020.html %}
 {% include_relative figures/timelapse_2023.html %}
 
