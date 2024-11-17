@@ -18,3 +18,12 @@ Especially during my Data Science course I had the opportunity to work and exlor
 2. In another project, datasets on student grades and demographics were merged to explore course performance, major impact, and GPA trends. Key findings include ECON majors taking diverse 1xx-level courses, non-ECON and CHEM majors outperforming ECON majors in BIOL courses, and Double and Triple Majors consistently achieving higher GPAs than Single Majors. GPA trends from 2003–2018 showed improvement for Single Majors and consistently strong performance for Double and Triple Majors.
 View more about this project 
 <a href="https://colab.research.google.com/drive/1FQ1r23vMKJq5bhvWjfOPDZBqghMhEIpd?usp=sharing" target="_blank">here</a>
+
+3. One of my bigger projects involved transforming Google location data from Prof. Schueller's phone into a structured pandas DataFrame indexed by datetime, with latitude and longitude columns. Using Plotly, I visualized location data for July 4, 2015, on a map, with variations like satellite view, a time-lapse of movements, and a line plot showing the movement path.
+
+
+
+7. Additionally, the data was compared to July 5, 2015, to observe patterns and differences, incorporating hover features to display timestamps.
+
+
+
