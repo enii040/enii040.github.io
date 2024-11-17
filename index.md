@@ -37,9 +37,9 @@ One of my major projects involved transforming Google location data from Prof. S
 
 One hypothesis was that Prof. Schueller’s weekend travel patterns changed over time, particularly when comparing 2015 (pre-pandemic), 2020, and 2023 (post-pandemic). The analysis revealed more frequent travel in 2015 and 2023 compared to 2020, likely reflecting pandemic restrictions.
 
-{% include_relative figures/timelapse_2015.html %}
+{% include_relative figures/timelapse_2019.html %}
 {% include_relative figures/timelapse_2020.html %}
-{% include_relative figures/timelapse_2023.html %}
+{% include_relative figures/timelapse_2022.html %}
 
 The timelapse heatmaps support the hypothesis that Prof. Schueller’s travel patterns were more localized during 2020, reflecting the impact of the pandemic.
 
