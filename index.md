@@ -32,5 +32,38 @@ Find the full prject
 <a href="https://colab.research.google.com/drive/16VBqXlgDpoVissV-YfJqjQtlUCJL9_00?usp=sharing" target="_blank">here</a>
 
 
+## Skills and Technologies
+#### Programming Languages:
+Python
+Java
+C++
+
+#### Porgrams and Technologies:
+Google Collab
+Blender
+R - Studio
+Canva
+
+## Approach to Projects
+Interactive Development:
+I utilize Google Colab for iterative and interactive data analysis, ensuring clear documentation and visualization throughout the process.
+
+Best Practices:
+Implementing the knowlwdge learned from Python Data Science Handbook, I follow structured workflows for data wrangling, analysis, and visualization. This includes:
+- Consistently organizing code and comments for readability.
+- Using modular functions to promote reusability and scalability.
+- Incorporating rigorous testing to validate outputs at every stage.
+
+Libraries I used include: Pandas, NumPy, Matplotlib, Plotly, as well as learned 
+
+
+
+
+
+
+
+
+ 
+
 
 
