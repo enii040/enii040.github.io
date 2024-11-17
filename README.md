@@ -20,4 +20,4 @@ ECON majors taking diverse 1xx-level courses.
 Non-ECON and CHEM majors outperforming ECON majors in BIOL courses.
 Double and Triple Majors consistently achieving higher GPAs than Single Majors.
 View more about this project 
-<a href="https://colab.research.google.com/drive/1FQ1r23vMKJq5bhvWjfOPDZBqghMhEIpd?usp=sharing" target="_blank">here</a>
+<a href="https://colab.research.google.com/drive/1FQ1r23vMKJq5bhvWjfOPDZBqghMhEIpd?usp=sharing" target="_blank">here</a>.
