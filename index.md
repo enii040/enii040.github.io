@@ -12,3 +12,5 @@ While I have previously worked with HTML, C++, Java and Python, academically I h
 Especially during my Data Science course I had the opportunity to work and exlore closely Python libraries such as pandas, matplot, numpy etc. Some of the projects I have worked on include colleting and cleaning experimental data gathered from my phone's light sensor through Physics Toolbox Sensor Suite to measure the light intensity for 2 days, plot them graphicaly and determine a possible day-length difference between the two days, as the time where the experiement took place was right after the summer solstice and before the fall equinox.
 
 Link to full 
+
+{% include_relative figures/daylight_comparison.html %}
