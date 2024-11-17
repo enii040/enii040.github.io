@@ -1,5 +1,7 @@
-## Eneida Likaj
-### Personal Website 
+## Personal Website 
+<div align="center">
+  Eneida Likaj
+</div>
 
 ## About me
 Hi, I’m Eneida Likaj, a sophomore at Whitman College studying Economics with a minor in Finance. 
@@ -54,7 +56,7 @@ Implementing the knowlwdge learned from Python Data Science Handbook, I follow s
 - Using modular functions to promote reusability and scalability.
 - Incorporating rigorous testing to validate outputs at every stage.
 
-Libraries I used include: Pandas, NumPy, Matplotlib, Plotly, as well as learned 
+Libraries I used include: Pandas, NumPy, Matplotlib, Plotly, as well as used Mapbox for map visualisations.
 
 
 
