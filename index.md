@@ -150,10 +150,10 @@ One of the key insights I’ve gained from my projects is the importance of incl
 
 
 ## Data Sources and Project Ideas
-Response: Val and I were looking at the Consumer Price Index data (https://www.bls.gov/cpi/).
-One idea was to work with the time-series data of prices over different presidential
-administrations in the US. [2009-2017 (Obama); 2017-2021 (Trump); 2021-2024(Biden)]
-We could also see if the consumer price index of good baskets in the US has changed not in
+
+1. One idea was to work with the time-series data of prices over different presidential
+administrations in the US. [2009-2017 (Obama); 2017-2021 (Trump); 2021-2024(Biden)] 
+Val and I were looking at the Consumer Price Index data (https://www.bls.gov/cpi/). We could also see if the consumer price index of good baskets in the US has changed not in
 line with other countries' price indexes.
 Data sources:
 
@@ -167,5 +167,13 @@ Data sources:
 
 <a href="https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG" target="_blank">World Bank Group</a>
 
+2. We could also use sports data and economic indicators to analyze the economic impact of major sporting events like the Super Bowl or the World Cup to answer the question of how does hosting a major sporting event influence local GDP?
+And what are the trends in ticket prices and attendance?
+  https://sports-statistics.com/
+  https://data.un.org/
 
+3. Another idea would be to depict the socio-economic impact of COVID-19 int he US. Using CDC data and U.S. Census we can analyse unemployment rates, mental health issues, or access to healthcare.
+   https://data.cdc.gov/
+   https://data.census.gov/
 
+4. 
