@@ -156,27 +156,24 @@ administrations in the US. [2009-2017 (Obama); 2017-2021 (Trump); 2021-2024(Bide
 Val and I were looking at the Consumer Price Index data (https://www.bls.gov/cpi/). We could also see if the consumer price index of good baskets in the US has changed not in
 line with other countries' price indexes.
 Data sources:
-
-<a href="https://data.ecb.europa.eu/data/data-categories/prices-macroeconomic-and-sectoral-statistics/measuring-inflation-harmonised-index-consumer-prices-hicp/harmonised-index-consumer-prices-hicp/goods" target="_blank">Europen Central Bank</a>
-
-<a href="https://data.imf.org/?sk=4ffb52b2-3653-409a-b471-d47b46d904b5&sid=1485878802128" target="_blank">International  Monetary Fund</a>
-
-<a href="https://tradingeconomics.com/united-states/interest-rate" target="_blank">Trading Economics</a>
-
-<a href="https://fred.stlouisfed.org/series/FEDFUNDS" target="_blank">FRED</a>
-
-<a href="https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG" target="_blank">World Bank Group</a>
+  <a href="https://data.ecb.europa.eu/data/data-categories/prices-macroeconomic-and-sectoral-statistics/measuring-inflation-harmonised-index-consumer-prices-hicp/harmonised-index-consumer-prices-hicp/goods" target="_blank">Europen Central Bank</a>
+  <a href="https://data.imf.org/?sk=4ffb52b2-3653-409a-b471-d47b46d904b5&sid=1485878802128" target="_blank">International  Monetary Fund</a>
+  <a href="https://tradingeconomics.com/united-states/interest-rate" target="_blank">Trading Economics</a>
+  <a href="https://fred.stlouisfed.org/series/FEDFUNDS" target="_blank">FRED</a>
+  <a href="https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG" target="_blank">World Bank Group</a>
 
 2. We could also use sports data and economic indicators to analyze the economic impact of major sporting events like the Super Bowl or the World Cup to answer the question of how does hosting a major sporting event influence local GDP?
 And what are the trends in ticket prices and attendance?
-<a href="https://sports-statistics.com/" target="_blank">Sports-Statistics</a>
-<a href="https://data.un.org/" target="_blank">UN-data</a>
+  <a href="https://sports-statistics.com/" target="_blank">Sports-Statistics</a>
+  <a href="https://data.un.org/" target="_blank">UN-data</a>
 
 
 3. Another idea would be to depict the socio-economic impact of COVID-19 int he US. Using CDC data and U.S. Census we can analyse unemployment rates, mental health issues, or access to healthcare.
-<a href="https://data.census.gov/" target="_blank">Dtat Census</a>
-<a href="https://data.cdc.gov/" target="_blank">CDC</a>
+  <a href="https://data.census.gov/" target="_blank">Dtat Census</a>
+  <a href="https://data.cdc.gov/" target="_blank">CDC</a>
 
 4. We could also use U.S. Census data to analyze population trends, migration patterns, or urbanization over the last decade, to explore how factors like income, education, or race/ethnicity vary across states and influence socio-economic outcomes.
-US Census Data
-<a href="https://data.un.org/" target="_blank">UN-data</a>
+  <a href="https://data.census.gov/" target="_blank">US Census Data</a>
+
+5. Using the data from the CDC’s Map of Seasonal Vaccination Coverage with Live Births, we can also create a project analyzing vaccination trends and their correlation with maternal health outcomes or demographic factors.
+   <a href="https://data.cdc.gov/" target="_blank">CDC</a>
