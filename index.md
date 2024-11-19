@@ -174,7 +174,9 @@ And what are the trends in ticket prices and attendance?
 
 
 3. Another idea would be to depict the socio-economic impact of COVID-19 int he US. Using CDC data and U.S. Census we can analyse unemployment rates, mental health issues, or access to healthcare.
-   https://data.cdc.gov/
-   https://data.census.gov/
+<a href="https://data.census.gov/" target="_blank">Dtat Census</a>
+<a href="https://data.cdc.gov/" target="_blank">CDC</a>
 
-4. 
+4. We could also use U.S. Census data to analyze population trends, migration patterns, or urbanization over the last decade, to explore how factors like income, education, or race/ethnicity vary across states and influence socio-economic outcomes.
+US Census Data
+<a href="https://data.un.org/" target="_blank">UN-data</a>
