@@ -169,8 +169,9 @@ Data sources:
 
 2. We could also use sports data and economic indicators to analyze the economic impact of major sporting events like the Super Bowl or the World Cup to answer the question of how does hosting a major sporting event influence local GDP?
 And what are the trends in ticket prices and attendance?
-  https://sports-statistics.com/
-  https://data.un.org/
+<a href="https://sports-statistics.com/" target="_blank">Sports-Statistics</a>
+<a href="https://data.un.org/" target="_blank">UN-data</a>
+
 
 3. Another idea would be to depict the socio-economic impact of COVID-19 int he US. Using CDC data and U.S. Census we can analyse unemployment rates, mental health issues, or access to healthcare.
    https://data.cdc.gov/
