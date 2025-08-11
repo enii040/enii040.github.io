@@ -5,7 +5,7 @@
 
 <div align="center">
   (5XX) XXX-XXX * likaje@whitman.edu * https://www.linkedin.com/in/eneida-likaj-a7b257191/ 
-  <p><a href="https://drive.google.com/file/d/1UC0yQGDHgcBRNg2DVpymw41IlIg1vByu/view?usp=sharing" target="_blank">Resume</a></p>
+  <p><a href="[https://drive.google.com/file/d/1UC0yQGDHgcBRNg2DVpymw41IlIg1vByu/view?usp=sharing](https://docs.google.com/document/d/1rvoBu8C09j56gQy7JLnho-G1ETKs6XgV/edit?usp=sharing&ouid=115102744478095973269&rtpof=true&sd=true)" target="_blank">Resume</a></p>
 </div>
 
 
